@@ -1,6 +1,6 @@
 {
-    "name": "bravedave/mvp",
-    "description": "Minimum Viable Product",
+    "name": "bravedave/hello",
+    "description": "Hello Minimum Viable Application",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "license": "MIT",
@@ -12,6 +12,7 @@
         }
     ],
     "require": {
+        "bravedave/dvc": "^1.8"
     },
     "autoload": {
         "psr-4": {
