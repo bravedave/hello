@@ -52,11 +52,17 @@ class home extends Controller {
 		}
 		elseif ( 'todo-get-items' == $action) {
 			/*
-			_brayworth_.post({
-				url : _brayworth_.url('<?= $this->route ?>'),
-				data : { action : 'todo-get-items' },
+			((_) =>
+				_.post({
+					url : _.url('<?= $this->route ?>'),
+					data : { action : 'todo-get-items' },
 
-			}).then( function( d) { console.log( d.data) });
+				}).then( ( d) => {
+					console.log( d.data);
+
+				});
+
+			)(_brayworth_);
 
 			 */
 			$dao = new dao\todo;
