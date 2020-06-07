@@ -6,5 +6,11 @@
  *
  * MIT License
  *
-*/	?>
-<h1>hello world</h1>
+*/
+
+namespace dao;
+
+class todo extends _dao {
+    protected $_db_name = 'todo';
+
+}

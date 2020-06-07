@@ -41,7 +41,7 @@ a { color: inherit; }
 	<li class="nav-item h5"><a href="<?= strings::url( $this->route ) ?>">Index</a></li>
 
 <?php if ( $this->Request->ServerIsLocal()) { ?>
-	<li class="nav-item"><a class="nav-link" href="<?= strings::url('hello/info') ?>">View phpinfo()</a></li>
+	<li class="nav-item"><a class="nav-link" href="<?= strings::url('info') ?>">View phpinfo()</a></li>
 
 <?php } // if ( Request::ServerIsLocal()) ?>
 
