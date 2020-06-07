@@ -46,8 +46,8 @@ Intended to demonstrate the building an appication ...
         <tr>
             <td>AJAX</td>
             <td>
-                app/views/todo
-                app/controller/hello<br />
+                app/views/todo<br />
+                app/controller/hello
             </td>
         </tr>
     </tbody>
